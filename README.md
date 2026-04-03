@@ -153,7 +153,7 @@ README.md
 
 ## 👩‍💻 Author
 
-Lakshmi Jasti
+Prasanna Jasti
 .NET Developer | 5+ Years Experience
 
 ---
