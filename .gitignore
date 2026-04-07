@@ -1,0 +1,16 @@
+# Visual Studio temporary files
+.vs/
+
+# Build folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.cache
+*.log
+
+# Optional: Rider / Resharper
+.idea/
+*.sln.iml
