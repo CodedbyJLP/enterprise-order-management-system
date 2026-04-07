@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Interview Poject\\EnterpriseOrderManagementSystem\\IdentityService\\",
+  "WorkspaceRootPath": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8435412-A8A9-4C26-BF9E-E3AF6FB50117}|OrderService\\OrderService.csproj|e:\\interview poject\\enterpriseordermanagementsystem\\identityservice\\orderservice\\applicationservice\\applicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A8435412-A8A9-4C26-BF9E-E3AF6FB50117}|OrderService\\OrderService.csproj|e:\\personalproject\\enterpriseordermanagementsystem\\identityservice\\orderservice\\applicationservice\\applicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8435412-A8A9-4C26-BF9E-E3AF6FB50117}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\applicationservice\\applicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B321897-A909-412A-90A3-31C3BF2EC5C1}|IdentityService\\IdentityService.csproj|e:\\interview poject\\enterpriseordermanagementsystem\\identityservice\\identityservice\\controllers\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2B321897-A909-412A-90A3-31C3BF2EC5C1}|IdentityService\\IdentityService.csproj|e:\\personalproject\\enterpriseordermanagementsystem\\identityservice\\identityservice\\controllers\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B321897-A909-412A-90A3-31C3BF2EC5C1}|IdentityService\\IdentityService.csproj|solutionrelative:identityservice\\controllers\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,15 +18,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ApplicationService.cs",
-              "DocumentMoniker": "E:\\Interview Poject\\EnterpriseOrderManagementSystem\\IdentityService\\OrderService\\ApplicationService\\ApplicationService.cs",
+              "DocumentMoniker": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\OrderService\\ApplicationService\\ApplicationService.cs",
               "RelativeDocumentMoniker": "OrderService\\ApplicationService\\ApplicationService.cs",
-              "ToolTip": "E:\\Interview Poject\\EnterpriseOrderManagementSystem\\IdentityService\\OrderService\\ApplicationService\\ApplicationService.cs",
+              "ToolTip": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\OrderService\\ApplicationService\\ApplicationService.cs",
               "RelativeToolTip": "OrderService\\ApplicationService\\ApplicationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -37,9 +45,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "IdentityController.cs",
-              "DocumentMoniker": "E:\\Interview Poject\\EnterpriseOrderManagementSystem\\IdentityService\\IdentityService\\Controllers\\IdentityController.cs",
+              "DocumentMoniker": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\IdentityService\\Controllers\\IdentityController.cs",
               "RelativeDocumentMoniker": "IdentityService\\Controllers\\IdentityController.cs",
-              "ToolTip": "E:\\Interview Poject\\EnterpriseOrderManagementSystem\\IdentityService\\IdentityService\\Controllers\\IdentityController.cs",
+              "ToolTip": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\IdentityService\\Controllers\\IdentityController.cs",
               "RelativeToolTip": "IdentityService\\Controllers\\IdentityController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

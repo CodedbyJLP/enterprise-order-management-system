@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Interview Poject\\EnterpriseOrderManagementSystem\\IdentityService\\IdentityService\\IdentityService.csproj": {}
+    "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\IdentityService\\IdentityService.csproj": {}
   },
   "projects": {
-    "E:\\Interview Poject\\EnterpriseOrderManagementSystem\\IdentityService\\IdentityService\\IdentityService.csproj": {
+    "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\IdentityService\\IdentityService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Interview Poject\\EnterpriseOrderManagementSystem\\IdentityService\\IdentityService\\IdentityService.csproj",
+        "projectUniqueName": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\IdentityService\\IdentityService.csproj",
         "projectName": "IdentityService",
-        "projectPath": "E:\\Interview Poject\\EnterpriseOrderManagementSystem\\IdentityService\\IdentityService\\IdentityService.csproj",
+        "projectPath": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\IdentityService\\IdentityService.csproj",
         "packagesPath": "C:\\Users\\laksh\\.nuget\\packages\\",
-        "outputPath": "E:\\Interview Poject\\EnterpriseOrderManagementSystem\\IdentityService\\IdentityService\\obj\\",
+        "outputPath": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\IdentityService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
