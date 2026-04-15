@@ -16,10 +16,28 @@ namespace IdentityService.ApplicationService.Services
 
         public bool AuthriseUser(LoginRequestDto loginRequest)
         {
-            
-            _userRepository.AuthriseUser(loginRequest.Email, loginRequest.Password);
-             return true;
 
+            _userRepository.AuthriseUser(loginRequest.Email, loginRequest.Password);
+            return true;
+
+        }
+
+
+        public string RegisterUser(RegisterDTo registerRequest)
+        {
+            _userRepository.RegisterUser(registerRequest);
+            return "User registered successfully";
+        }
+
+        public string ForgotPassword(string email)
+        {
+            return _userRepository.ForgotPassword(email);
+
+        }
+
+        public string ChangePassword(Changepassword changepassword)
+        {
+            return _userRepository.ChangePassword(changepassword);
         }
     }
 }

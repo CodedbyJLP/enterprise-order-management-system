@@ -10,13 +10,28 @@ namespace IdentityService.Controller
     [ApiController]
     public class IdentityController : ControllerBase
     {
-       private readonly IUserService _usersService;
-        public IdentityController(IUserService usersService) {
+        private readonly IUserService _usersService;
+        public IdentityController(IUserService usersService)
+        {
             _usersService = usersService;
-        
-        
+
+
         }
 
+
+
+        [HttpPost("register")]
+        public IActionResult Register(RegisterDTo registerRequest)
+        {
+            try
+            {
+                return Ok(_usersService.RegisterUser(registerRequest));
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
 
 
         [HttpPost("login")]
@@ -37,10 +52,34 @@ namespace IdentityService.Controller
         }
 
 
-        [HttpGet("test")]
-        public IActionResult Test()
+        [HttpGet("forgotpwd")]
+        public string ForgotPassword(string email)
         {
-            return Ok("API working");
+
+            try
+            {
+                return _usersService.ForgotPassword(email);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+        }
+
+        [HttpGet("changepwd")]
+        public string ChangePassword(Changepassword changepassword)
+        {
+            try
+            {
+                return _usersService.ChangePassword(changepassword);
+            }
+            catch (Exception e)
+            {
+
+                throw e;
+            }
         }
 
 
