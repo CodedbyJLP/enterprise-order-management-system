@@ -24,5 +24,8 @@ namespace ProductService.Infrastructure
 
         public IMongoCollection<CategoryEntity> Categories =>
           _database.GetCollection<CategoryEntity>("Category");
+
+        //public IMongoCollection<ProductAttributes> Attributes =>
+        // _database.GetCollection<ProductAttributes>("Attributes");
     }
 }

@@ -5,8 +5,10 @@ namespace ProductService.ApplicationService.Interfaces
     public interface IProductsService
     {
 
-        Task<bool> SaveProductAsync(ProductsDTO productDto);
+        Task<bool> SaveProductAsync(string categoryid, List<ProductsDTO> productDtos);
 
-        Task<List<ProductsDTO>> GetAllProductsAsync();
+        Task<ProductsDTO> GetProductsbyId(string id);
+        Task<bool> UpdateProduct(string id, ProductsDTO productDto);
+        Task<bool> DeleteProductbyId(string id);
     }
 }

@@ -14,14 +14,24 @@ namespace ProductService.ApplicationService.Services
         }
 
 
-        public Task<bool> SaveProductAsync(ProductsDTO productDto)
+        public Task<bool> SaveProductAsync(string categoryid, List<ProductsDTO> productDtos)
         {
-            return _productsRepository.SaveProductAsync(productDto);
+            return _productsRepository.SaveProductAsync(categoryid,productDtos);
         }
 
-        public Task<List<ProductsDTO>> GetAllProductsAsync()
+        public Task<ProductsDTO> GetProductsbyId(string id)
         {
-            return _productsRepository.GetAllProductsAsync();
+            return _productsRepository.GetProductsbyId(id);
+        }
+
+        public Task<bool> UpdateProduct(string id, ProductsDTO productDto)
+        {
+            return _productsRepository.UpdateProduct(id, productDto);
+        }
+
+        public Task<bool> DeleteProductbyId(string id)
+        {
+           return _productsRepository.DeleteProductbyId(id);
         }
     }
 }

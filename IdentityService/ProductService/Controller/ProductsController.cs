@@ -17,26 +17,52 @@ namespace IdentityService.Controller
             _productsService = productsService;
         }
 
-        [HttpPost("saveproduct")]
-        public async Task<IActionResult> SaveProduct(ProductsDTO productDto)
+        [HttpPost("products/{categoryid}")]
+        public async Task<IActionResult> SaveProduct(string categoryid, List<ProductsDTO> productDtos)
         {
-            var result = await _productsService.SaveProductAsync(productDto);
-            if (result)
+            if (ModelState.IsValid)
             {
+                var result = await _productsService.SaveProductAsync(categoryid, productDtos);
+                if (!result)
+                {
+                    return BadRequest("Failed to save product.");
+                }
+
                 return Ok("Product saved successfully.");
             }
-            return BadRequest("Failed to save product.");
-
+            return BadRequest(ModelState);
         }
 
-        [HttpGet("getallproducts")]
-        public async Task<IActionResult> GetAllProducts()
+        [HttpGet("products/{id}")]
+        public async Task<IActionResult> Products(string id)
         {
-
-            var products = await _productsService.GetAllProductsAsync();
+            var products = await _productsService.GetProductsbyId(id);
             return Ok(products);
 
-
         }
+
+        [HttpPut("products/{id}")]
+        public async Task<IActionResult> Products(ProductsDTO productDto, string id)
+        {
+            var products = await _productsService.UpdateProduct(id, productDto);
+            if (!products)
+            {
+                return NotFound();
+            }
+            return Ok(products);
+        }
+
+        [HttpDelete("products/{id}")]
+        public async Task<IActionResult> DeleteProducts(string id)
+        {
+            var products = await _productsService.DeleteProductbyId(id);
+            if (!products)
+            {
+                return NotFound();
+            }
+            return NoContent();
+        }
+
+
     }
 }
