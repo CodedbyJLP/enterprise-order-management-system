@@ -8,5 +8,7 @@ namespace ProductService.Domain.Entities
         public ObjectId ProductId { get; set; }
         public int Quantity { get; set; }
         public DateTime LastUpdated { get; set; }
+        public int Available { get; internal set; }
+        public int Reserved { get; internal set; }
     }
 }

@@ -3,56 +3,32 @@
   "WorkspaceRootPath": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|e:\\personalproject\\enterpriseordermanagementsystem\\identityservice\\productservice\\controller\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|solutionrelative:productservice\\controller\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|e:\\personalproject\\enterpriseordermanagementsystem\\identityservice\\productservice\\infrastructure\\repositories\\iproductsinvetoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|solutionrelative:productservice\\infrastructure\\repositories\\iproductsinvetoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|e:\\personalproject\\enterpriseordermanagementsystem\\identityservice\\productservice\\infrastructure\\repositories\\productsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|solutionrelative:productservice\\infrastructure\\repositories\\productsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|e:\\personalproject\\enterpriseordermanagementsystem\\identityservice\\productservice\\infrastructure\\repositories\\productsinvetoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|solutionrelative:productservice\\infrastructure\\repositories\\productsinvetoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|e:\\personalproject\\enterpriseordermanagementsystem\\identityservice\\productservice\\applicationservice\\services\\productsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|solutionrelative:productservice\\applicationservice\\services\\productsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|e:\\personalproject\\enterpriseordermanagementsystem\\identityservice\\productservice\\applicationservice\\services\\productinvetoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|solutionrelative:productservice\\applicationservice\\services\\productinvetoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|e:\\personalproject\\enterpriseordermanagementsystem\\identityservice\\productservice\\domain\\entities\\productsentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|solutionrelative:productservice\\domain\\entities\\productsentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|e:\\personalproject\\enterpriseordermanagementsystem\\identityservice\\productservice\\applicationservice\\interfaces\\iproductinvetoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|solutionrelative:productservice\\applicationservice\\interfaces\\iproductinvetoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|e:\\personalproject\\enterpriseordermanagementsystem\\identityservice\\productservice\\infrastructure\\productscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|solutionrelative:productservice\\infrastructure\\productscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|e:\\personalproject\\enterpriseordermanagementsystem\\identityservice\\productservice\\controller\\productsinventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|solutionrelative:productservice\\controller\\productsinventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|e:\\personalproject\\enterpriseordermanagementsystem\\identityservice\\productservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|solutionrelative:productservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|e:\\personalproject\\enterpriseordermanagementsystem\\identityservice\\productservice\\applicationservice\\dtos\\productinventorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|solutionrelative:productservice\\applicationservice\\dtos\\productinventorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|e:\\personalproject\\enterpriseordermanagementsystem\\identityservice\\productservice\\infrastructure\\repositories\\iproductsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|solutionrelative:productservice\\infrastructure\\repositories\\iproductsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|e:\\personalproject\\enterpriseordermanagementsystem\\identityservice\\productservice\\applicationservice\\interfaces\\iproductsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|solutionrelative:productservice\\applicationservice\\interfaces\\iproductsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|e:\\personalproject\\enterpriseordermanagementsystem\\identityservice\\productservice\\controller\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|solutionrelative:productservice\\controller\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|e:\\personalproject\\enterpriseordermanagementsystem\\identityservice\\productservice\\applicationservice\\services\\categoriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|solutionrelative:productservice\\applicationservice\\services\\categoriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|e:\\personalproject\\enterpriseordermanagementsystem\\identityservice\\productservice\\applicationservice\\interfaces\\icategoriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|solutionrelative:productservice\\applicationservice\\interfaces\\icategoriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|e:\\personalproject\\enterpriseordermanagementsystem\\identityservice\\productservice\\domain\\entities\\categoryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|solutionrelative:productservice\\domain\\entities\\categoryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|e:\\personalproject\\enterpriseordermanagementsystem\\identityservice\\productservice\\applicationservice\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|solutionrelative:productservice\\applicationservice\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|e:\\personalproject\\enterpriseordermanagementsystem\\identityservice\\productservice\\infrastructure\\repositories\\categoriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C004A49F-AD0D-4714-BF90-14CF0A5DB92F}|ProductService\\ProductService.csproj|solutionrelative:productservice\\infrastructure\\repositories\\categoriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,8 +38,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IProductsInvetoryRepository.cs",
+              "DocumentMoniker": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\Infrastructure\\Repositories\\IProductsInvetoryRepository.cs",
+              "RelativeDocumentMoniker": "ProductService\\Infrastructure\\Repositories\\IProductsInvetoryRepository.cs",
+              "ToolTip": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\Infrastructure\\Repositories\\IProductsInvetoryRepository.cs",
+              "RelativeToolTip": "ProductService\\Infrastructure\\Repositories\\IProductsInvetoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T16:53:30.754Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -74,171 +63,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductsContext.cs",
-              "DocumentMoniker": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\Infrastructure\\ProductsContext.cs",
-              "RelativeDocumentMoniker": "ProductService\\Infrastructure\\ProductsContext.cs",
-              "ToolTip": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\Infrastructure\\ProductsContext.cs",
-              "RelativeToolTip": "ProductService\\Infrastructure\\ProductsContext.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAABEAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ProductInvetoryService.cs",
+              "DocumentMoniker": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\ApplicationService\\Services\\ProductInvetoryService.cs",
+              "RelativeDocumentMoniker": "ProductService\\ApplicationService\\Services\\ProductInvetoryService.cs",
+              "ToolTip": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\ApplicationService\\Services\\ProductInvetoryService.cs",
+              "RelativeToolTip": "ProductService\\ApplicationService\\Services\\ProductInvetoryService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T23:35:34.663Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\Controller\\ProductsController.cs",
-              "RelativeDocumentMoniker": "ProductService\\Controller\\ProductsController.cs",
-              "ToolTip": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\Controller\\ProductsController.cs",
-              "RelativeToolTip": "ProductService\\Controller\\ProductsController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T17:26:35.985Z",
+              "WhenOpened": "2026-04-23T14:54:07.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductsEntity.cs",
-              "DocumentMoniker": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\Domain\\Entities\\ProductsEntity.cs",
-              "RelativeDocumentMoniker": "ProductService\\Domain\\Entities\\ProductsEntity.cs",
-              "ToolTip": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\Domain\\Entities\\ProductsEntity.cs",
-              "RelativeToolTip": "ProductService\\Domain\\Entities\\ProductsEntity.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAIA6wBEAAAAFAAAAAAAAAA==",
+              "Title": "IProductInvetoryService.cs",
+              "DocumentMoniker": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\ApplicationService\\Interfaces\\IProductInvetoryService.cs",
+              "RelativeDocumentMoniker": "ProductService\\ApplicationService\\Interfaces\\IProductInvetoryService.cs",
+              "ToolTip": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\ApplicationService\\Interfaces\\IProductInvetoryService.cs",
+              "RelativeToolTip": "ProductService\\ApplicationService\\Interfaces\\IProductInvetoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T17:53:01.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductsService.cs",
-              "DocumentMoniker": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\ApplicationService\\Services\\ProductsService.cs",
-              "RelativeDocumentMoniker": "ProductService\\ApplicationService\\Services\\ProductsService.cs",
-              "ToolTip": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\ApplicationService\\Services\\ProductsService.cs",
-              "RelativeToolTip": "ProductService\\ApplicationService\\Services\\ProductsService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAEwCEAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T17:39:01.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductsRepository.cs",
-              "DocumentMoniker": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\Infrastructure\\Repositories\\ProductsRepository.cs",
-              "RelativeDocumentMoniker": "ProductService\\Infrastructure\\Repositories\\ProductsRepository.cs",
-              "ToolTip": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\Infrastructure\\Repositories\\ProductsRepository.cs",
-              "RelativeToolTip": "ProductService\\Infrastructure\\Repositories\\ProductsRepository.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAAAHQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T17:26:35.963Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IProductsRepository.cs",
-              "DocumentMoniker": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\Infrastructure\\Repositories\\IProductsRepository.cs",
-              "RelativeDocumentMoniker": "ProductService\\Infrastructure\\Repositories\\IProductsRepository.cs",
-              "ToolTip": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\Infrastructure\\Repositories\\IProductsRepository.cs",
-              "RelativeToolTip": "ProductService\\Infrastructure\\Repositories\\IProductsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T17:39:35.364Z",
+              "WhenOpened": "2026-04-23T14:53:57.283Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\Program.cs",
-              "RelativeDocumentMoniker": "ProductService\\Program.cs",
-              "ToolTip": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\Program.cs",
-              "RelativeToolTip": "ProductService\\Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Title": "ProductInventoryDTO.cs",
+              "DocumentMoniker": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\ApplicationService\\DTOs\\ProductInventoryDTO.cs",
+              "RelativeDocumentMoniker": "ProductService\\ApplicationService\\DTOs\\ProductInventoryDTO.cs",
+              "ToolTip": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\ApplicationService\\DTOs\\ProductInventoryDTO.cs",
+              "RelativeToolTip": "ProductService\\ApplicationService\\DTOs\\ProductInventoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T23:35:23.043Z",
+              "WhenOpened": "2026-04-23T14:52:04.83Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IProductsService.cs",
-              "DocumentMoniker": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\ApplicationService\\Interfaces\\IProductsService.cs",
-              "RelativeDocumentMoniker": "ProductService\\ApplicationService\\Interfaces\\IProductsService.cs",
-              "ToolTip": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\ApplicationService\\Interfaces\\IProductsService.cs",
-              "RelativeToolTip": "ProductService\\ApplicationService\\Interfaces\\IProductsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ProductsInventoryController.cs",
+              "DocumentMoniker": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\Controller\\ProductsInventoryController.cs",
+              "RelativeDocumentMoniker": "ProductService\\Controller\\ProductsInventoryController.cs",
+              "ToolTip": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\Controller\\ProductsInventoryController.cs",
+              "RelativeToolTip": "ProductService\\Controller\\ProductsInventoryController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAB0AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T17:39:09.648Z",
+              "WhenOpened": "2026-04-23T14:41:51.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CategoriesService.cs",
-              "DocumentMoniker": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\ApplicationService\\Services\\CategoriesService.cs",
-              "RelativeDocumentMoniker": "ProductService\\ApplicationService\\Services\\CategoriesService.cs",
-              "ToolTip": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\ApplicationService\\Services\\CategoriesService.cs",
-              "RelativeToolTip": "ProductService\\ApplicationService\\Services\\CategoriesService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAEwCIAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ProductsInvetoryRepository.cs",
+              "DocumentMoniker": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\Infrastructure\\Repositories\\ProductsInvetoryRepository.cs",
+              "RelativeDocumentMoniker": "ProductService\\Infrastructure\\Repositories\\ProductsInvetoryRepository.cs",
+              "ToolTip": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\Infrastructure\\Repositories\\ProductsInvetoryRepository.cs*",
+              "RelativeToolTip": "ProductService\\Infrastructure\\Repositories\\ProductsInvetoryRepository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T16:05:29.079Z",
+              "WhenOpened": "2026-04-23T14:55:23.372Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ICategoriesService.cs",
-              "DocumentMoniker": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\ApplicationService\\Interfaces\\ICategoriesService.cs",
-              "RelativeDocumentMoniker": "ProductService\\ApplicationService\\Interfaces\\ICategoriesService.cs",
-              "ToolTip": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\ApplicationService\\Interfaces\\ICategoriesService.cs",
-              "RelativeToolTip": "ProductService\\ApplicationService\\Interfaces\\ICategoriesService.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAvwAQAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "CategoriesRepository.cs",
+              "DocumentMoniker": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\Infrastructure\\Repositories\\CategoriesRepository.cs",
+              "RelativeDocumentMoniker": "ProductService\\Infrastructure\\Repositories\\CategoriesRepository.cs",
+              "ToolTip": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\Infrastructure\\Repositories\\CategoriesRepository.cs",
+              "RelativeToolTip": "ProductService\\Infrastructure\\Repositories\\CategoriesRepository.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T16:04:37.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\Controller\\CategoryController.cs",
-              "RelativeDocumentMoniker": "ProductService\\Controller\\CategoryController.cs",
-              "ToolTip": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\Controller\\CategoryController.cs",
-              "RelativeToolTip": "ProductService\\Controller\\CategoryController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAADoAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T16:02:09.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CategoryDto.cs",
-              "DocumentMoniker": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\ApplicationService\\DTOs\\CategoryDto.cs",
-              "RelativeDocumentMoniker": "ProductService\\ApplicationService\\DTOs\\CategoryDto.cs",
-              "ToolTip": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\ApplicationService\\DTOs\\CategoryDto.cs",
-              "RelativeToolTip": "ProductService\\ApplicationService\\DTOs\\CategoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T16:11:31.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CategoryEntity.cs",
-              "DocumentMoniker": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\Domain\\Entities\\CategoryEntity.cs",
-              "RelativeDocumentMoniker": "ProductService\\Domain\\Entities\\CategoryEntity.cs",
-              "ToolTip": "E:\\PersonalProject\\EnterpriseOrderManagementSystem\\IdentityService\\ProductService\\Domain\\Entities\\CategoryEntity.cs",
-              "RelativeToolTip": "ProductService\\Domain\\Entities\\CategoryEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T16:16:57.094Z",
+              "WhenOpened": "2026-04-23T15:01:08.935Z",
               "EditorCaption": ""
             }
           ]
