@@ -15,7 +15,7 @@ namespace ProductService.Domain.Entities
         public List<ProductAttributes> Attributes { get; set; }
         public string[] Tags { get; set; }
         public string ImageUrl { get; set; }
-        public object Quantity { get; internal set; }
+        public int Quantity { get;  set; }
     }
     public class ProductAttributes
     {

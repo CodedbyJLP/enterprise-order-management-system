@@ -10,5 +10,8 @@ namespace ProductService.ApplicationService.Interfaces
         Task<ProductsDTO> GetProductsbyId(string id);
         Task<bool> UpdateProduct(string id, ProductsDTO productDto);
         Task<bool> DeleteProductbyId(string id);
+        Task<List<ProductsDTO>> SearchProducts(string keyword);
+        Task<List<ProductsDTO>> SearchProductsbyCategoryId(string categoryId, decimal minprice, decimal maxprice);
+        Task<List<ProductsDTO> SortProductsbyField(string field, string order);
     }
 }

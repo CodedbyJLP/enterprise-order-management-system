@@ -33,5 +33,20 @@ namespace ProductService.ApplicationService.Services
         {
            return _productsRepository.DeleteProductbyId(id);
         }
+
+        public Task<List<ProductsDTO>> SearchProducts(string keyword)
+        {
+            return _productsRepository.SearchProducts(keyword);
+        }
+
+        public Task<List<ProductsDTO>> SearchProductsbyCategoryId(string categoryId, decimal minprice, decimal maxprice)
+        {
+            return _productsRepository.SearchProductsbyCategoryId(categoryId, minprice, maxprice);
+        }
+
+        public Task<List<ProductsDTO>> SortProductsbyField(string field, string order)
+        {
+            return _productsRepository.SortProductsbyField(field, order);
+        }
     }
 }

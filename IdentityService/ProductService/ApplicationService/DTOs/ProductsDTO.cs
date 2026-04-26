@@ -19,6 +19,8 @@ namespace ProductService.Domain.Entities
 
         public DateTime CreatedAt { get; set; } = DateTime.Now;
         public Nullable<DateTime> UpdatedAt { get; set; }
+
+        public Nullable<bool> IsAvailable { get; set; }
     }
 
    

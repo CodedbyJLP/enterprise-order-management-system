@@ -62,7 +62,26 @@ namespace IdentityService.Controller
             }
             return NoContent();
         }
+        [HttpGet("search/{keyword}")]
+        public async Task<IActionResult> SearchProducts(string keyword)
+        {
+            var products = await _productsService.SearchProducts(keyword);
+            return Ok(products);
 
+        }
+        [HttpGet("products/filter/{categoryId}/{minprice}/{maxprice}")]
+        public async Task<IActionResult> SearchProductsbyCategoryId(string categoryId, decimal minprice, decimal maxprice)
+        {
+            var products = await _productsService.SearchProductsbyCategoryId(categoryId, minprice, maxprice);
+            return Ok(products);
 
+        }
+        [HttpGet("products/sort/{field}/{order}")]
+        public async Task<IActionResult> SortProductsbyField(string field, string order)
+        {
+            var products = await _productsService.SortProductsbyField(field, order);
+            return Ok(products);
+
+        }
     }
 }

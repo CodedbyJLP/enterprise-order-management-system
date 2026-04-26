@@ -113,5 +113,93 @@ namespace ProductService.Infrastructure.Repositories
                 throw e;
             }
         }
+
+        public async Task<List<ProductsDTO>> SearchProducts(string keyword)
+        {
+            try
+            {
+                var regexFilter = new BsonRegularExpression(keyword, "i");
+                List<ProductsDTO> lstproductsDto = new List<ProductsDTO>();
+                var filter = Builders<ProductsEntity>.Filter.Or(
+                    Builders<ProductsEntity>.Filter.Regex(p => p.Name, regexFilter),
+                    Builders<ProductsEntity>.Filter.Regex(p => p.Description, regexFilter),
+                    Builders<ProductsEntity>.Filter.AnyStringIn(p => p.Tags, new[] { new StringOrRegularExpression(regexFilter) })
+                );
+
+                var product = await _dbContext.Products.Find(filter).ToListAsync();
+
+                if (product.Any())
+                {
+                    lstproductsDto = product.Select(p => new ProductsDTO
+                    {
+                        Id = p.Id.ToString(),
+                        Name = p.Name,
+                        Description = p.Description,
+                        Price = p.Price,
+                        CategoryId = p.CategoryId.ToString(),
+                        IsActive = p.IsActive,
+                        CreatedAt = p.CreatedAt,
+                        UpdatedAt = p.UpdatedAt,
+                        IsAvailable = p.Quantity > 0 ? true : false,
+                    }).ToList();
+
+                }
+                return lstproductsDto;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+
+        public async Task<List<ProductsDTO>> SearchProductsbyCategoryId(string categoryId, decimal minprice, decimal maxprice)
+        {
+            try
+            {
+                List<ProductsDTO> lstproductsDto = new List<ProductsDTO>();
+                var productfilters = Builders<ProductsEntity>.Filter.And(
+                    Builders<ProductsEntity>.Filter.Gte(p => p.Price, minprice),
+                    Builders<ProductsEntity>.Filter.Lte(p => p.Price, maxprice),
+                    Builders<ProductsEntity>.Filter.Eq(p => p.CategoryId, ObjectId.Parse(categoryId))
+                );
+                var products = await _dbContext.Products.Find(productfilters).ToListAsync();
+                if (products.Any())
+                {
+                    lstproductsDto = products.Select(p => new ProductsDTO
+                    {
+                        Id = p.Id.ToString(),
+                        Name = p.Name,
+                        Description = p.Description,
+                        Price = p.Price,
+                        CategoryId = p.CategoryId.ToString(),
+                        IsActive = p.IsActive,
+                        CreatedAt = p.CreatedAt,
+                        UpdatedAt = p.UpdatedAt,
+                        IsAvailable = p.Quantity > 0 ? true : false,
+                    }).ToList();
+                }
+
+                return lstproductsDto;
+            }
+            catch (Exception e)
+            {
+
+                throw;
+            }
+        }
+
+        public Task<List<ProductsDTO>> SortProductsbyField(string field, string order)
+        {
+            try
+            {
+
+
+
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
     }
 }
